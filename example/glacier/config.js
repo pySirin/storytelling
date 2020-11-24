@@ -1,6 +1,6 @@
 var config = {
-    style: 'mapbox://styles/branigan/cjz37rcb003ib1cr3s8rnkt2d',
-    accessToken: 'pk.eyJ1IjoibWJ4c29sdXRpb25zIiwiYSI6ImNrMm01aG9hdTBlZGwzbXQ1ZXVrNHNmejAifQ.QHQA0N6XPWddCXtvoODHZg',
+    style: 'mapbox://styles/sirinlee/ckhvni5d60fpc1as7p39gjg3x/draft',
+    accessToken: 'pk.eyJ1Ijoic2lyaW5sZWUiLCJhIjoiY2s0czV2eWNjMGZpYzNmbG5xZTVpN2kwayJ9.487Dqx2alv208Zf3hs9I4Q',
     showMarkers: false,
     alignment: 'left',
     theme: 'dark',
@@ -10,13 +10,13 @@ var config = {
     footer: 'Source: Story text from Wikipedia, August 2019. Data from <a href="https://www.usgs.gov/centers/norock/science/retreat-glaciers-glacier-national-park">USGS</a>',
     chapters: [
         {
-            id: 'glacier-np',
-            title: 'Glacier National Park Glaciers',
+            id: '1',
+            title: '柑橘来自于喜马拉雅',
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/2015-06-19_Glacier_National_Park_%28U.S.%29_8633.jpg/800px-2015-06-19_Glacier_National_Park_%28U.S.%29_8633.jpg',
-            description: 'Glacier National Park is dominated by mountains which were carved into their present shapes by the huge glaciers of the last ice age. These glaciers have largely disappeared over the last 12,000 years. Evidence of widespread glacial action is found throughout the park in the form of U-shaped valleys, cirques, arêtes, and large outflow lakes radiating like fingers from the base of the highest peaks. Since the end of the ice ages, various warming and cooling trends have occurred. The last recent cooling trend was during the Little Ice Age, which took place approximately between 1550 and 1850. During the Little Ice Age, the glaciers in the park expanded and advanced, although to nowhere near as great an extent as they had during the Ice Age.',
+            description: '辣椒原产于中南美洲热带地区。从墨西哥到秘鲁，古印第安人在不同地域纷纷培植了这种作物，早於公元前7500年',
             location: {
-                center: [-113.91666, 48.66451],
-                zoom: 8,
+                center: [111.914,31.007],
+                zoom: 4.68,
                 pitch: 0.00,
                 bearing: 0.00
             },
@@ -38,13 +38,13 @@ var config = {
             ]
         },
         {
-            id: 'harrison1998',
-            title: 'Harrison Glacier, 1998',
+            id: '2',
+            title: '初入中华：辣椒=观赏盆栽？',
             image: '',
-            description: 'Harrison Glacier is located in the US state of Montana in Glacier National Park. Situated on a southeast facing ridge immediately south of Mount Jackson, Harrison Glacier is the largest glacier in Glacier National Park. Compared to many of the vanishing glaciers in Glacier National Park, Harrison Glacier has a much higher altitude accumulation zone (approximately 9,000 feet (2,700 m)) which has allowed it to maintain some equilibrium in its glacier mass balance.',
+            description: '辣椒最初于15-16世纪进入中国，主要经由海洋贸易传入，经由四处（较大可能性）。但此时辣椒并不被当成食物，而是一种观赏植物。“色红，甚可观。”此时，中国传统的辛香料主要有姜、花椒、茱萸和胡椒等，尤以花椒為主。',
             location: {
-                center: [-113.72917, 48.58938],
-                zoom: 12.92,
+                center: [111.914,31.007],
+                zoom: 4.68,
                 pitch: 39.50,
                 bearing: 36.00
             },
@@ -57,7 +57,7 @@ var config = {
             ]
         },
         {
-            id: 'harrison2015',
+            id: '3',
             title: 'Harrison Glacier, 2015',
             image: '',
             description: 'Between 1998 and 2015, Harrison Glacier lost 169 acres of surface area (about 37%).',
